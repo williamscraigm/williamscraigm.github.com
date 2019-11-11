@@ -4,6 +4,8 @@ Displays mountains as a hand drawn 3D sketch. There are 2 styles available: chal
 
 ![screenshot](./images/screenshot.png)
 
+**Try it out**: [here](https://craig-williams.com/sketch-the-mountain/index.html)
+
 **Inspiration**: [Raluca Nicola](https://twitter.com/nicolaraluk) built her Sketch the city app and I was interested to see what this would look like for mountains. This is a fork of her project but applied to mountains.
 
 **How it works**: The API loads a [WebScene](https://developers.arcgis.com/javascript/latest/api-reference/esri-WebScene.html) of a mountain created in the [SceneViewer](https://www.arcgis.com/home/webscene/viewer.html).

@@ -47,21 +47,21 @@ require([
     .then(function(response) {
 
       const mountains = response.data.mountains;
-      const cityContainer = document.getElementById("mountains");
+      const mountainContainer = document.getElementById("mountains");
 
       // generate the menu using plain old vanilla JS DOM API
       for (let i = 0; i < mountains.length; i++) {
-        const city = mountains[i];
+        const mountain = mountains[i];
         const button = document.createElement("button");
-        button.innerHTML = city.title;
+        button.innerHTML = mountain.title;
         button.addEventListener("click", function() {
-          setScene(city.id);
-          setId(city.id);
-          if (city.attribution) {
-            document.getElementById("attribution").innerHTML = city.attribution + '. Made with <a href="" target="_blank">ArcGIS API for JavaScript</a>';
+          setScene(mountain.id);
+          setId(mountain.id);
+          if (mountain.attribution) {
+            document.getElementById("attribution").innerHTML = mountain.attribution + '. Made with <a href="" target="_blank">ArcGIS API for JavaScript</a>';
           }
-        }.bind(city));
-        cityContainer.appendChild(button);
+        }.bind(mountain));
+        mountainContainer.appendChild(button);
       }
     })
     // if something went wrong with the loading show an error in the console
@@ -173,7 +173,7 @@ require([
       }
     });
 
-    // load the webscene with the city
+    // load the webscene with the mountain
     const origWebscene = new WebScene({
       portalItem: {
         id: id

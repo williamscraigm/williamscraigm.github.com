@@ -1,12 +1,7 @@
 {
 	"mountains": [{
 			"title": "Mt Hood",
-			"id": "d2878d3df7ff44789d083b3b0f77b348",
-			"attribution": "USGS"
-		},
-		{
-			"title": "Mt Hood 2",
-			"id": "d2878d3df7ff44789d083b3b0f77b348",
+			"id": "9dd0355e99cd42cf9b92b43c8d110334",
 			"attribution": "USGS"
 		}
 	]

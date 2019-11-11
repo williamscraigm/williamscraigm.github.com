@@ -1,6 +1,6 @@
 # Sketch the mountain
 
-Displays mountains as a hand drawn 3D sketch. There are 2 styles available: chalk on blackboard and pencil on canvas. Here are the 2 styles applied on a webscene of Mt Hood:
+Displays mountains as a hand drawn 3D sketch. There are 2 styles available: chalk on blackboard and pencil on canvas. Here are the 2 styles applied on a webscene of Mount Hood:
 
 ![screenshot](./images/screenshot.png)
 
